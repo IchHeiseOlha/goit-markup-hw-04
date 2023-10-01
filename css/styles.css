@@ -81,9 +81,6 @@ a{
     border-radius: 2px;
 }
 
-/*.link::before{
-
-}*/
 
 .link:hover, .link:focus, .link-a:hover, .link-a:focus{
     color: #404BBF;
@@ -307,7 +304,9 @@ color: #2E2F42;
     background-color: #404bbf;
 }*/
 
-.list_soc_item_a:hover, .list_soc_item_a:focus{
+.list_soc_item_a:hover, 
+.list_soc_item_a:focus, 
+.list_soc_item_a:active{
     background-color: #404bbf;
 }
 
